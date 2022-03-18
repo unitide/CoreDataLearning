@@ -10,13 +10,15 @@
 		E9C604C027E38FD000514CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604BF27E38FD000514CB5 /* AppDelegate.swift */; };
 		E9C604C227E38FD000514CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604C127E38FD000514CB5 /* SceneDelegate.swift */; };
 		E9C604C427E38FD000514CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604C327E38FD000514CB5 /* ViewController.swift */; };
-		E9C604C727E38FD000514CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C604C527E38FD000514CB5 /* Main.storyboard */; };
 		E9C604CA27E38FD000514CB5 /* CoreDataLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C604C827E38FD000514CB5 /* CoreDataLearning.xcdatamodeld */; };
 		E9C604CC27E38FD200514CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C604CB27E38FD200514CB5 /* Assets.xcassets */; };
 		E9C604CF27E38FD200514CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C604CD27E38FD200514CB5 /* LaunchScreen.storyboard */; };
 		E9C604DA27E38FD200514CB5 /* CoreDataLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604D927E38FD200514CB5 /* CoreDataLearningTests.swift */; };
 		E9C604E427E38FD200514CB5 /* CoreDataLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604E327E38FD200514CB5 /* CoreDataLearningUITests.swift */; };
 		E9C604E627E38FD200514CB5 /* CoreDataLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604E527E38FD200514CB5 /* CoreDataLearningUITestsLaunchTests.swift */; };
+		E9C604F727E3A13C00514CB5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604F627E3A13C00514CB5 /* Contact.swift */; };
+		E9C604F927E3A1FF00514CB5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604F827E3A1FF00514CB5 /* ViewModel.swift */; };
+		E9C604FB27E4B60F00514CB5 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C604FA27E4B60F00514CB5 /* ContactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 		E9C604BF27E38FD000514CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C604C127E38FD000514CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E9C604C327E38FD000514CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9C604C627E38FD000514CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9C604C927E38FD000514CB5 /* CoreDataLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLearning.xcdatamodel; sourceTree = "<group>"; };
 		E9C604CB27E38FD200514CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C604CE27E38FD200514CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		E9C604DF27E38FD200514CB5 /* CoreDataLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C604E327E38FD200514CB5 /* CoreDataLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearningUITests.swift; sourceTree = "<group>"; };
 		E9C604E527E38FD200514CB5 /* CoreDataLearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9C604F627E3A13C00514CB5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E9C604F827E3A1FF00514CB5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E9C604FA27E4B60F00514CB5 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			children = (
 				E9C604BF27E38FD000514CB5 /* AppDelegate.swift */,
 				E9C604C127E38FD000514CB5 /* SceneDelegate.swift */,
-				E9C604C327E38FD000514CB5 /* ViewController.swift */,
-				E9C604C527E38FD000514CB5 /* Main.storyboard */,
+				E9C604F527E3A07200514CB5 /* Models */,
+				E9C604F427E3A06200514CB5 /* ViewModels */,
+				E9C604F327E3A04400514CB5 /* ViewControllers */,
+				E9C604F227E3A03400514CB5 /* views */,
 				E9C604CB27E38FD200514CB5 /* Assets.xcassets */,
 				E9C604CD27E38FD200514CB5 /* LaunchScreen.storyboard */,
 				E9C604D027E38FD200514CB5 /* Info.plist */,
@@ -128,6 +134,38 @@
 				E9C604E527E38FD200514CB5 /* CoreDataLearningUITestsLaunchTests.swift */,
 			);
 			path = CoreDataLearningUITests;
+			sourceTree = "<group>";
+		};
+		E9C604F227E3A03400514CB5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E9C604FA27E4B60F00514CB5 /* ContactTableViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E9C604F327E3A04400514CB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9C604C327E38FD000514CB5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9C604F427E3A06200514CB5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9C604F827E3A1FF00514CB5 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9C604F527E3A07200514CB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9C604F627E3A13C00514CB5 /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +274,6 @@
 			files = (
 				E9C604CF27E38FD200514CB5 /* LaunchScreen.storyboard in Resources */,
 				E9C604CC27E38FD200514CB5 /* Assets.xcassets in Resources */,
-				E9C604C727E38FD000514CB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +300,10 @@
 			files = (
 				E9C604CA27E38FD000514CB5 /* CoreDataLearning.xcdatamodeld in Sources */,
 				E9C604C427E38FD000514CB5 /* ViewController.swift in Sources */,
+				E9C604F727E3A13C00514CB5 /* Contact.swift in Sources */,
 				E9C604C027E38FD000514CB5 /* AppDelegate.swift in Sources */,
+				E9C604FB27E4B60F00514CB5 /* ContactTableViewCell.swift in Sources */,
+				E9C604F927E3A1FF00514CB5 /* ViewModel.swift in Sources */,
 				E9C604C227E38FD000514CB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E9C604C527E38FD000514CB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9C604C627E38FD000514CB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9C604CD27E38FD200514CB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +478,6 @@
 				INFOPLIST_FILE = CoreDataLearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,7 +505,6 @@
 				INFOPLIST_FILE = CoreDataLearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
